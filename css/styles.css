@@ -1,0 +1,13 @@
+.cubos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .cubo{
+      width: 200px;
+      height: 200px;
+      background-color: aqua;
+      &:hover{
+        background-color: brown;
+      }
+    }
+}
